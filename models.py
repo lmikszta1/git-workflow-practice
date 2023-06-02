@@ -6,5 +6,6 @@ class Medication(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     pharmacy = models.ForeignKey(Pharmacy, on_delete=models.CASCADE)
 
-    
 
+
+more models here
